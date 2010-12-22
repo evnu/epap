@@ -1,14 +1,15 @@
 # Maintainer: Jaroslav Lichtblau <dragonlord@aur.archlinux.org>
+# Contributor: Magnus Mueller <stiffy2@gmx.de>
 
 pkgname=fim-svn
-pkgver=273
+pkgver=281
 pkgrel=1
 pkgdesc="Development version of a highly customizable and scriptable framebuffer image viewer based on fbi"
-arch=('i686')
+arch=('arm')
 url="https://www.autistici.org/dezperado/"
 license=('GPL')
 depends=('libungif' 'libpng' 'libjpeg' 'libtiff' 'readline')
-makedepends=('subversion')
+makedepends=('subversion' 'automake' 'flex' 'bison')
 options=('!makeflags')
 source=()
 md5sums=()
